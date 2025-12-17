@@ -95,7 +95,7 @@ def hour_chart(df):
 def main_page_demo(df):
     """主界面函数：展示关键指标和图表"""
     #设置标题
-    st.title(":bar_chart:销售仪表板")
+    st.title("销售仪表板")
     #创建关键指标信息区，生成3个列容器
     left_key_col, middle_key_col, right_key_col = st.columns(3)
 
